@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chatDetail {
+    background-image: url("https://www.indy100.com/media-library/image.jpg?id=28092000&width=400&height=225&coordinates=0%2C335%2C0%2C335&quality=80");
+}
