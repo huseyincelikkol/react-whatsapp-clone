@@ -15,7 +15,7 @@ export const Sidebar = () => {
 
     
     useEffect(() => {
-        const pusher = new Pusher('15241b6d1d1634cab79a', {
+        const pusher = new Pusher('', {
             cluster: 'eu'
         });
         const channel = pusher.subscribe('rooms');
